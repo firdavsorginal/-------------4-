@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+   
+    width: 100px;
+    height: 718px;
+    z-index: -1;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+}
+button{
+    width: 100px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.144);
+}
+div{
+   position: fixed;
+   right: 40px;
+   bottom: 25px;
+
+}
+.no5{
+    width: 120px;
+}
+.no4{
+    width: 120px;
+}
+.no3{
+    width: 105px;
+}
+.no2{
+    width: 175px;
+}
+.no1{
+    width: 125px;
+}
+.no0{
+    width: 105px;
+}

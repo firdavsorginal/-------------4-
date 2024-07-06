@@ -1,0 +1,20 @@
+
+body {
+    width: 200px;
+    height: 718px;
+    background-image: url('./IMG/Screenshot_20240706_113438_com.tencent.ig.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.no0{
+    position: relative;
+top: 560px;
+left: 790px;
+    width: 180px;
+    height: 55px;
+    background: rgba(0, 0, 0, 0.166);
+}
+input{
+    width: 300px;
+    height: 30px;
+}

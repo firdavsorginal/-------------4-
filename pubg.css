@@ -1,0 +1,75 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+}
+.b1{
+
+}
+h1{
+    color: gold;
+}
+p{margin: auto;
+    text-align: center;
+    width: 120px;
+    background: gold;
+    color: black;
+}
+b{
+    color: black;
+    background: red;
+    width: 120px;
+    margin: auto;
+}
+.b1{
+    background: blue;
+    color: white;
+    border: none;
+    padding: 7px 15px 7px 15px;
+}
+.text{
+    display: flex;
+   flex-direction: column;
+
+}
+.b2{
+   background: white;
+  
+    border: none;
+    padding: 7px 15px 7px 15px; 
+}
+.b3{
+  background: rgb(77, 73, 73);
+    color: white;
+    border: none;
+    padding: 7px 40px 7px 40px;
+}
+.b4{
+    background: rgba(0, 0, 0, 0.562);
+    color: white;
+    border: none;
+    padding: 2px;
+}
+.button{
+    margin-top: 30px;
+}
